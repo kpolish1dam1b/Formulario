@@ -24,5 +24,24 @@ namespace Formulario
         {
             InitializeComponent();
         }
+
+        private void saveClick(object sender, RoutedEventArgs e)
+        {
+            string nombre = txtNombre.Text;
+            string apellidos = txtApellidos.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+            string nombre = txtNombre.Text;
+
+        }
     }
 }

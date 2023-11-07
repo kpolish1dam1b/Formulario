@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Formulario"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Introducción de Datos de Empleados" Height="634.195" Width="800">
     <Grid>
-        
+        <Label Content="Introducción de Datos de Empleados" HorizontalAlignment="Left" Margin="225,22,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+        <StackPanel>
+            <Label></Label>
+            <TextBox
+        </StackPanel>
+
     </Grid>
 </Window>
