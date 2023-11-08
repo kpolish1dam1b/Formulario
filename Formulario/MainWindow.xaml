@@ -5,14 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Formulario"
         mc:Ignorable="d"
-        Title="Introducción de Datos de Empleados" Height="634.195" Width="800">
+        Title="Introducción de Datos de Empleados" Height="1000" Width="800">
     <Grid>
-        <Label Content="Introducción de Datos de Empleados" HorizontalAlignment="Left" Margin="225,22,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <StackPanel Margin="15, 0, 0, 0">
+            
+            <Label Content="Introducción de Datos de Empleados" HorizontalAlignment="Left" Margin="225,10,0,10" VerticalAlignment="Top" FontSize="20"/>
 
-        <StackPanel>
-            <Label></Label>
-            <TextBox
+            <Grid Margin="0, 0, 0, 10">
+                <Label Foreground="Black" FontSize="16" Content="Nombre*" HorizontalAlignment="Left"/>
+                <TextBox x:Name="txtNombre" Foreground="Black" FontSize="16" Margin="120,0,250,0"/>
+            </Grid>
+
+            <Grid Margin="0, 0, 0, 10">
+                <Label Foreground="Black" FontSize="16" Content="Apellidos" HorizontalAlignment="Left"/>
+                <TextBox x:Name="txtApellidos" Foreground="Black" FontSize="16" Margin="120,0,250,0"/>
+            </Grid>
+
+            <Grid Margin="0, 0, 0, 10">
+                <Label Foreground="Black" FontSize="16" Content="E-mail*" HorizontalAlignment="Left"/>
+                <TextBox x:Name="txtEmail" Foreground="Black" FontSize="16" Margin="120,0,250,0"/>
+            </Grid>
+
+            <Grid Margin="0, 0, 0, 10">
+                <Label Foreground="Black" FontSize="16" Content="Telefono*" HorizontalAlignment="Left"/>
+                <TextBox x:Name="txtTelefono" Foreground="Black" FontSize="16" Margin="120,0,450,0"/>
+            </Grid>
+
+            <Grid Margin="0, 0, 0, 10">
+                <Label Foreground="Black" FontSize="16" Content="Fecha de nacimiento" HorizontalAlignment="Left"/>
+                <DatePicker Name="datePicker" FontSize="16" Margin="180,0,250,0"/>
+            </Grid>
+
+            <Grid Margin="0, 0, 0, 10">
+                <Label Foreground="Black" FontSize="16" Content="DNI*" HorizontalAlignment="Left"/>
+                <TextBox x:Name="txtDNI" Foreground="Black" FontSize="16" Margin="120,0,450,0"/>
+            </Grid>
+
+            <Grid Margin="0, 0, 0, 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" Foreground="Black" FontSize="16" Content="Adjuntar fotografía" HorizontalAlignment="Left"/>
+                <Button Grid.Column="1" Margin="200,0,350,0" Content="Cargar Foto" FontSize="16" Width="130" Height="50"/>
+                <TextBlock Grid.Column="2"/>
+            </Grid>
+
         </StackPanel>
+
 
     </Grid>
 </Window>

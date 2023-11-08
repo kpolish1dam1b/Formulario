@@ -1,0 +1,5 @@
+D:\DEIN\Formulario\Formulario\obj\Debug\Formulario.csproj.AssemblyReference.cache
+D:\DEIN\Formulario\Formulario\obj\Debug\MainWindow.g.cs
+D:\DEIN\Formulario\Formulario\obj\Debug\App.g.cs
+D:\DEIN\Formulario\Formulario\obj\Debug\Formulario_MarkupCompile.cache
+D:\DEIN\Formulario\Formulario\obj\Debug\Formulario_MarkupCompile.lref
